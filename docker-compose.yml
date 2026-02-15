@@ -1,0 +1,9 @@
+services:
+  redis-stack:
+    image: redis/redis-stack:latest
+    container_name: nexus-redis
+    ports:
+      - "6380:6379"
+      - "8002:8001"
+    environment:
+      - REDIS_ARGS="--requirepass password" # Optional: add password if needed

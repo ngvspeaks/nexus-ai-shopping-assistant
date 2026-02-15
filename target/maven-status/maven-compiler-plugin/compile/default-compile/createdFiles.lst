@@ -1,0 +1,3 @@
+com\example\nexus\service\NexusChatService.class
+com\example\nexus\controller\NexusChatController.class
+com\example\nexus\NexusApplication.class
